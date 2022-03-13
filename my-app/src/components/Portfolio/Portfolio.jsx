@@ -23,12 +23,6 @@ const Portfolio = () => {
                     <div className="list-item-portfolio">
                         <img src={image} alt="image"/>
                     </div>
-                    <div className="list-item-portfolio">
-                        <img src={image} alt="image"/>
-                    </div>
-                    <div className="list-item-portfolio">
-                        <img src={image} alt="image"/>
-                    </div>
                 </div>
             </div>
         </section>
