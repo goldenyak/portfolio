@@ -1,0 +1,36 @@
+.arrowButton {
+    display: block;
+    margin: 40px auto 0 auto;
+    border: 2px solid #0f141e;
+    border-radius: 40px;
+    background: none;
+    padding: 4px 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    -webkit-animation: slide-bottom 0.8s linear 1s infinite alternate backwards;
+    animation: slide-bottom 0.8s linear 1s infinite alternate backwards;
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+}
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+}

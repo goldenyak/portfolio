@@ -1,0 +1,417 @@
+/*Вся секция + полупрозрачная надпись сзади*/
+.home-top {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 370px;
+    min-height: 0;
+}
+
+@media (min-width: 568px) {
+    .home-top {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    .home-top {
+        padding-top: 140px;
+    }
+}
+
+.bg-title {
+    display: none;
+}
+
+@media (min-width: 1280px) {
+    .bg-title {
+        display: block;
+        margin: 0 auto;
+        width: 98%;
+        overflow: hidden;
+        -webkit-filter: drop-shadow(24px 24px 20px #f7f7f7);
+        filter: drop-shadow(24px 24px 20px #f7f7f7);
+    }
+
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    .bg-title {
+        -webkit-filter: drop-shadow(24px 24px 20px #f7f7f7);
+        -webkit-animation: home-bg-loaded 1s linear;
+        animation: home-bg-loaded 1s linear;
+    }
+}
+@-webkit-keyframes home-bg-loaded {
+    0%,40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes home-bg-loaded {
+    0%,40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+
+/*Фоновое изображение*/
+.bg-image {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url("https://watracz.com/assets/images/bg_home.png") no-repeat top 0 center;
+    margin-top: 70px;
+    background-size: auto 100%;
+    max-height: 460px;
+    pointer-events: none !important;
+    /*visibility: hidden;*/
+    animation: fade-in 1s linear;
+}
+
+section.home-top .bg-image img {
+    max-width: 100%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden
+}
+
+@media (min-width: 568px) {
+    .bg-image {
+        background-position: top 0 right 0;
+    }
+}
+
+@media (min-width: 834px) {
+    .bg-image {
+        max-height: none;
+        background-position: top 0 right -110px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bg-image {
+        background-position: top -30px right -50px;
+    }
+}
+
+@media (min-width: 1194px) {
+    .bg-image {
+        background-position: top -30px right 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .bg-image {
+        background-position: top -20px right -20px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .bg-image {
+        background-position: top -20px right 0;
+    }
+}
+
+@media (min-width: 1480px) {
+    .bg-image {
+        background-position: top 0 right 80px;
+        visibility: visible;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+}
+
+@media (min-width: 1600px) {
+    .bg-image {
+        background-position: top 0 right 100px;
+        visibility: visible;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+}
+
+@media (min-width: 1680px) {
+    .bg-image {
+        background-position: top 0 right 100px;
+        min-height: 1120px;
+        visibility: visible;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    .bg-image {
+        visibility: visible;
+        animation: fade-in 1s linear;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*Wrapper с текстовой информацией обо мне*/
+.wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 0 14px;
+}
+
+@media (min-width: 1280px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1480px) {
+    .wrapper {
+        /*top: -200px;*/
+        max-width: 1480px;
+        margin: -180px auto 0 auto;
+    }
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.main-copy {
+    width: 100%;
+}
+
+@media (min-width: 568px) {
+    .main-copy {
+        width: 58.333333333%;
+    }
+}
+
+@media (min-width: 834px) {
+    .main-copy {
+        width: 58.333333333%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-copy {
+        width: 58.333333333%;
+    }
+}
+
+@media (min-width: 1194px) {
+    .main-copy {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main-copy {
+        width: 58.333333333%;
+    }
+}
+
+@media (min-width: 1480px) {
+    .main-copy {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .main-copy {
+        width: 50%;
+    }
+}
+
+h5 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    letter-spacing: .4em;
+    color: #878a8f;
+    margin: 0;
+    display: block;
+    font-family: "Helvetica Now Display DW", sans-serif;
+}
+
+.large h1 {
+    font-family: "Helvetica Now Display DW", sans-serif;
+}
+
+.large {
+    margin-top: 0;
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-family: "Helvetica Now Display DW", sans-serif;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    color: #0f141e;
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h5 + h1 {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h1, h1.large {
+        font-size: 2.75rem;
+        line-height: 3.125rem;
+        padding-top: 4px;
+        padding-bottom: 1px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h5 + h1.large {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h1.large, h1.large.large {
+        font-size: 3.875rem;
+        line-height: 4.0625rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 1280px) {
+    h1.large, h1.large.large {
+        font-size: 3.5rem;
+        padding-top: 1px;
+        padding-bottom: 4px;
+        font-weight: 600;
+    }
+}
+
+
+h1.large + h3 {
+    margin-top: 10px;
+}
+
+h3.header-light {
+    font-weight: 500;
+    color: #878a8f;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-family: "Helvetica Now Display DW", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding-top: 1px;
+    padding-bottom: 4px;
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h3 {
+        font-size: 1.375rem;
+        line-height: 1.875rem;
+        padding-top: 2px;
+        padding-bottom: 3px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h1 + h3 {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    h1.large + h3 {
+        margin-top: 20px;
+    }
+}
+
+
+nav.links {
+    display: block;
+    margin-top: 10px;
+}
+
+nav.links h4 {
+    display: inline-block;
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    font-weight: 800;
+    letter-spacing: normal;
+    color: #0f141e;
+    margin: 0;
+    font-family: "Helvetica Now Display DW", sans-serif;
+}
+
+a {
+    position: relative;
+    color: #0f141e;
+    border: 0 none;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+nav.links span {
+    color: #878a8f;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

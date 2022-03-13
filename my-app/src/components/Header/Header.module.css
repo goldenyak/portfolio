@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 50px;
+    /*background: rgba(255, 255, 255, .95);*/
+    position: fixed;
+    min-width: 320px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+@media (min-width: 768px) and (min-height: 620px), (min-width: 1280px) {
+    .header {
+        background-image: initial;
+        background-position-x: 0;
+        background-position-y: 0;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+        height: 0;
+    }
+}
