@@ -10,11 +10,11 @@ const Portfolio = () => {
     return (
         <section className="home-portfolio">
             <div className="wrapper-portfolio">
-                <div data-aos="fade-up" data-aos-duration="2000">
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <h5>Selected projects</h5>
                     <h1 className="large">Case studies</h1>
                 </div>
-                <div className="list ">
+                <div className="list">
                     <div className="list-item-portfolio">
                         <img src={image} alt="image"/>
                         <div className="description">

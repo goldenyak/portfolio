@@ -4,6 +4,7 @@ import Menu from "./components/Menu/Menu";
 import {useState} from "react";
 import HomeTop from "./components/HomeTop/HomeTop";
 import Portfolio from "./components/Portfolio/Portfolio";
+import PersonalPortfolio from "./components/PersonalPortfolio/PersonalPortfolio";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Header toggleShowMenu={toggleShowMenu} showMenu={showMenu}/>
             {showMenu && <Menu/>}
             <HomeTop/>
+            <PersonalPortfolio/>
             <Portfolio/>
         </div>
     );
