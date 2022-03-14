@@ -5,6 +5,7 @@ import {useState} from "react";
 import HomeTop from "./components/HomeTop/HomeTop";
 import Portfolio from "./components/Portfolio/Portfolio";
 import PersonalPortfolio from "./components/PersonalPortfolio/PersonalPortfolio";
+import HomeDown from "./components/HomeDown/HomeDown";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <HomeTop/>
             <PersonalPortfolio/>
             <Portfolio/>
+            <HomeDown/>
         </div>
     );
 }

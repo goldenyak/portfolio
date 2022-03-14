@@ -71,6 +71,7 @@
     left: 0;
     z-index: 1;
     background: url("https://watracz.com/assets/images/bg_home.png") no-repeat top 0 center;
+    /*background: url("https://indylogix.com/wp-content/uploads/2020/10/why-choose-front-end-developer-indylogix-solutions.png") no-repeat top 0 center;*/
     margin-top: 70px;
     background-size: auto 100%;
     max-height: 460px;
@@ -402,6 +403,10 @@ nav.links span {
     color: #878a8f;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.hometop_link:hover {
+    border-bottom: 3px solid black;
 }
 
 

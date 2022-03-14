@@ -22,9 +22,9 @@ const HomeTop = () => {
                             worked with big companies and up-and-coming startups to successfully help them reach
                             their full potential and attract new customers.</h3>
                         <nav className="links">
-                            <h4><a href="#" className="scroll-to special">View Projects</a></h4>
+                            <h4><a href="#" className="hometop_link">View Projects</a></h4>
                             <span>or</span>
-                            <h4><a href="#" className="internal special">Read About Me</a></h4>
+                            <h4><a href="#" className="hometop_link">Read About Me</a></h4>
                         </nav>
                     </div>
                 </div>
