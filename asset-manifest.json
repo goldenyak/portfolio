@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aeba9538.css",
-    "main.js": "/portfolio/static/js/main.dc47b55b.js",
+    "main.css": "/portfolio/static/css/main.396bd039.css",
+    "main.js": "/portfolio/static/js/main.0df9a93e.js",
+    "static/media/portfolio_pizza.png": "/portfolio/static/media/portfolio_pizza.3c5c7294ba0f8c932be1.png",
+    "static/media/portfolio_flags.png": "/portfolio/static/media/portfolio_flags.19050f834efd47004118.png",
+    "static/media/portfolio_website.png": "/portfolio/static/media/portfolio_website.d301c2764f830feeade2.png",
     "static/media/portfolio_sneakers.png": "/portfolio/static/media/portfolio_sneakers.72c22356c43fdfcf79d7.png",
     "static/media/portfolio_social.png": "/portfolio/static/media/portfolio_social.38d81f74d21b4abf5d58.png",
     "static/media/portfolio_todo.png": "/portfolio/static/media/portfolio_todo.03b9718fc5057ea6a58a.png",
-    "static/media/iceland.jpeg": "/portfolio/static/media/iceland.ebdabf7ba60c308d8d6b.jpeg",
     "static/media/bg_home.png": "/portfolio/static/media/bg_home.26b623c0336ce0f9a619.png",
-    "static/media/shot.png": "/portfolio/static/media/shot.1ffa372659f9741813a6.png",
     "static/media/portfolio_img.jpeg": "/portfolio/static/media/portfolio_img.cb17213821224cb8f08b.jpeg",
     "static/media/frontend_bg.svg": "/portfolio/static/media/frontend_bg.9bf96d4237d5ac0ef597e7b1023bed8e.svg",
     "index.html": "/portfolio/index.html",
-    "main.aeba9538.css.map": "/portfolio/static/css/main.aeba9538.css.map",
-    "main.dc47b55b.js.map": "/portfolio/static/js/main.dc47b55b.js.map"
+    "main.396bd039.css.map": "/portfolio/static/css/main.396bd039.css.map",
+    "main.0df9a93e.js.map": "/portfolio/static/js/main.0df9a93e.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeba9538.css",
-    "static/js/main.dc47b55b.js"
+    "static/css/main.396bd039.css",
+    "static/js/main.0df9a93e.js"
   ]
 }
