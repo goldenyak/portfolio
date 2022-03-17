@@ -20,7 +20,7 @@ function App() {
             {showMenu && <Menu/>}
             <HomeTop/>
             <PersonalPortfolio/>
-            <Portfolio/>
+            {/*<Portfolio/>*/}
             <HomeDown/>
         </div>
     );
