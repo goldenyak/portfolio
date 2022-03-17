@@ -29,7 +29,7 @@ const HomeTop = () => {
                     </div>
                 </div>
             </div>
-            <ArrowButton/>
+            {/*<ArrowButton/>*/}
         </section>
     );
 };
