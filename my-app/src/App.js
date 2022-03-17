@@ -6,6 +6,7 @@ import HomeTop from "./components/HomeTop/HomeTop";
 import Portfolio from "./components/Portfolio/Portfolio";
 import PersonalPortfolio from "./components/PersonalPortfolio/PersonalPortfolio";
 import HomeDown from "./components/HomeDown/HomeDown";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 function App() {
 
@@ -20,8 +21,9 @@ function App() {
             {showMenu && <Menu/>}
             <HomeTop/>
             <PersonalPortfolio/>
+            <AboutMe/>
             {/*<Portfolio/>*/}
-            <HomeDown/>
+            {/*<HomeDown/>*/}
         </div>
     );
 }
