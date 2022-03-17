@@ -20,8 +20,10 @@ function App() {
             <Header toggleShowMenu={toggleShowMenu} showMenu={showMenu}/>
             {showMenu && <Menu/>}
             <HomeTop/>
+            <AboutMe/>
             <PersonalPortfolio/>
             <AboutMe/>
+
             {/*<Portfolio/>*/}
             {/*<HomeDown/>*/}
         </div>
